@@ -51,3 +51,4 @@ The project is to reimplement HYF's website in React. We can do it in the follow
 4. All the styles for the app will be finalized in index.css. Bootstrap will also be used.
 
 5. Using React Router, all the routes and links will be setup.
+6. Website will be tested for mobile use, accessibility, and performance.
