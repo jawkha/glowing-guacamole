@@ -7,34 +7,34 @@ return(
      application process.</p>;
 
      <label>Name</label>
-     <input type="text" class="form-control" placeholder="Name" id="name" required="" data-validation-required-message="write your name here please">
+     <input type="text" class="form-control" placeholder="Name" id="name" required="" data-validation-required-message="write your name here please"/>
      <p class="help-block text-danger"></p>;
 
 
      <label>Address</label>
-     <input type="text" class="form-control" placeholder="Address" id="address" required="" data-validation-required-message="write your addrress here please">
+     <input type="text" class="form-control" placeholder="Address" id="address" required="" data-validation-required-message="write your addrress here please"/>
      <p class="help-block text-danger"></p>;
 
      <label>Email Address</label>
-     <input type="email" class="form-control" placeholder="Email" id="email" required="" data-validation-required-message="write your email here please">
+     <input type="email" class="form-control" placeholder="Email" id="email" required="" data-validation-required-message="write your email here please"/>
      <p class="help-block text-danger"></p>;
 
      <label>Phone</label>
-     <input type="text" class="form-control" placeholder="Phone" id="ohone" required="" data-validation-required-message="write your phones number here please">
+     <input type="text" class="form-control" placeholder="Phone" id="ohone" required="" data-validation-required-message="write your phones number here please"/>
      <p class="help-block text-danger"></p>;
 
 
      <label>Do you have your own computer? </label>
-     <br>
-     <input type="radio" class="radioBtnClass"> Yes
-     <input type="radio" class="radioBtnClass" > No
+     <br/>
+     <input type="radio" class="radioBtnClass"> Yes</input>
+     <input type="radio" class="radioBtnClass" > No </input>
      <p class="help-block text-danger"></p>;
 
      <label>Location: </label>
-     <br>
-      <input type="radio" class="radioBtnClass" name="location" required="" value="Amsterdam"> Amsterdam &nbsp;
-     <input type="radio" class="radioBtnClass" name="location" required="" value="Copenhagen"> Copenhagen
-     <input type="radio" class="radioBtnClass" name="location" required="" value="Malmö"> Malmö
+     <br/>
+      <input type="radio" class="radioBtnClass" name="location" required="" value="Amsterdam"> Amsterdam &nbsp</input>
+     <input type="radio" class="radioBtnClass" name="location" required="" value="Copenhagen"> Copenhagen</input>
+     <input type="radio" class="radioBtnClass" name="location" required="" value="Malmö"> Malmö</input>
      <p class="help-block text-danger"></p>;
 
      <label>Educational Background</label>
