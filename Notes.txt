@@ -1,4 +1,4 @@
-The project is to reimplement HYF's website in React. We can do it in the following sequence:
+The project is to create the website in React. We can do it in the following sequence:
 
 1. Create the skeleton for the project with the following main elements:
 	index.html	--- that's where the site will be displayed
