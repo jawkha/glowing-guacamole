@@ -13,6 +13,7 @@ import HomeGetInTouch from './HomeGetInTouch';
 const Home = () => {
 	return (
 		<div className="home">
+			{/* <img id="myelement" src="/photos/yesCPH.svg"  class="any-class-you-wish"/> */}
 			<HomeBannerImage />
 			<HomeWhatDoWeDo />
 			<HomeWeAreLookingFor />

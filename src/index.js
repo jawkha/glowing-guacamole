@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 
 // COMPONENTS
 import App from './components/App';
-
 import '../style/index.css';
 
 class Root extends React.Component {

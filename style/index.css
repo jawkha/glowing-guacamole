@@ -9,7 +9,9 @@
 ==================================== */
 
 body {
-	color: #576366;
+	background-color: red;
+	
+	/* color: #576366; */
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 }
@@ -19,6 +21,7 @@ ul {
 	margin-top: 20px;
 	margin-bottom: 10px;
 	padding: 0;
+	
 }
 
 ul {
@@ -34,14 +37,20 @@ a {
   LAYOUT & PAGE STYLES
 ==================================== */
 header {
-	background: #fff;
+		background: #fff;
 }
 
 /* IMAGES -------- */
 .home-banner-image {
-	background-image: url('./images/home_banner_image.jpg');
+	/* background-image: url('./images/home_banner_image.jpg'); */
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: #fff;
+    opacity: 0.78;
+	display: block;
+	padding :23.5%;
+
+
 }
 
 /* MAIN NAV -------- */
