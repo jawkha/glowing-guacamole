@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutForWho = () => {
 	return (
-		<div className="for-who">
+		<div className="for-who container text-center">
 			<h2>For who?</h2>
 			<p>
 				We teach to talented refugees who want to start their career in
@@ -13,7 +13,7 @@ const AboutForWho = () => {
 				We accept people living all over the Netherlands, and we pay for
 				transportation costs (train tickets).
 			</p>
-			<button>APPLY NOW</button>
+			<button className="btn btn-outline-danger">APPLY NOW</button>
 		</div>
 	);
 };

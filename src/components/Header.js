@@ -27,7 +27,7 @@ const Header = () => {
 				</li>
 				<li>
 					<a href="#">
-						<button className="donate-button">DONATE</button>
+					<button className="btn btn-outline-danger">DONATE</button>
 					</a>
 				</li>
 			</ul>

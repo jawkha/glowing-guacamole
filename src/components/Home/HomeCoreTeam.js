@@ -1,34 +1,26 @@
 import React from 'react';
+import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
+import FaEnvelopeSquare from 'react-icons/lib/fa/envelope-square';
+
+import coreteam from './../../data/coreteam.json';
 
 const HomeCoreTeam = () => {
 	return (
-		<div className="home-core-team">
-			<h2>Core Team</h2>
+		<div className="home-core-team container">
+			<h2 className="text-center">Core Team</h2>
+			<div className="row core-team-row container text-center">
 
-			<div className="row core-team-row">
-				<div className="col-md-2 col-sm-4 col-xs-7">
-					<div>IMAGE-PLACEHOLDER</div>
-					<h3>Gijs Corstens</h3>
-					<h3>Managing Director</h3>
-					<button>LinkedIn Profile Link</button>
-					<button>Mail Link</button>
+			{coreteam.map(member => (
+				<div key={member.id} className="col-md-2 col-sm-4 col-xs-7 container">
+				<img className="img rounded-circle" width="150px" src={member.photo} alt={member.name}></img>
+					<p>{member.name}</p>
+					<p>{member.role}</p>
+					<a href={member.email}><FaEnvelopeSquare /></a>
+					<a href={member.linkedin}><FaLinkedinSquare /></a>
 				</div>
-
-				<div className="col-md-2 col-sm-4 col-xs-7">
-					<div>IMAGE-PLACEHOLDER</div>
-					<h3>Maartje Kruijt</h3>
-					<h3>Educational Director</h3>
-					<button>LinkedIn Profile Link</button>
-					<button>Mail Link</button>
-				</div>
-				<div className="col-md-2 col-sm-4 col-xs-7">
-					<div>IMAGE-PLACEHOLDER</div>
-					<h3>Christopher Klüter</h3>
-					<h3>Managing Director</h3>
-					<button>LinkedIn Profile Link</button>
-					<button>Mail Link</button>
-				</div>
+			))}
 			</div>
+			
 		</div>
 	);
 };

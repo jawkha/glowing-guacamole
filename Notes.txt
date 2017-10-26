@@ -48,7 +48,9 @@ The project is to create the website in React. We can do it in the following seq
 		
 3. Once all the components are built, we will add the required functionality to them. The ones that won't have any interactivity will be converted into Stateless Functional Components.
 
-4. All the styles for the app will be finalized in index.css. Bootstrap will also be used.
+4. CREATE JSON FILES WITH DETAILS OF MENTORS, SPONSORS, AND CORE TEAM 
 
-5. Using React Router, all the routes and links will be setup.
-6. Website will be tested for mobile use, accessibility, and performance.
+5. All the styles for the app will be finalized in index.css. Bootstrap will also be used.
+
+6. Using React Router, all the routes and links will be setup.
+7. Website will be tested for mobile use, accessibility, and performance.

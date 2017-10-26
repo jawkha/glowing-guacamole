@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutHowCanYouHelp = () => {
 	return (
-		<div className="how-can-you-help">
+		<div className="how-can-you-help container text-center">
 			<h2>How can you help?</h2>
 			<p>
 				<strong>Volunteer</strong> We’re always looking for experienced
@@ -10,7 +10,7 @@ const AboutHowCanYouHelp = () => {
 				team of volunteers is a positive and focused group of people who
 				simply love to code and share their knowledge.
 			</p>
-			<button>START TEACHING</button>
+			<button className="btn btn-outline-danger">START TEACHING</button>
 			<p>
 				<strong>Donate</strong> In order to run our school we’re looking
 				for extra funds to better facilitate our students in their
@@ -18,7 +18,7 @@ const AboutHowCanYouHelp = () => {
 				our donate button below, or contact us if you have laptops to
 				donate. Your donation is much appreciated!
 			</p>
-			<button>DONATE</button>
+			<button className="btn btn-outline-danger">DONATE</button>
 		</div>
 	);
 };

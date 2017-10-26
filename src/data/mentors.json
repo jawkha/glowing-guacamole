@@ -1,0 +1,74 @@
+[
+    {
+        "id": "001",
+        "name": "Rasmus Jones",
+        "linkedin": "https://www.linkedin.com/in/rasmus-jones-b4552480/",
+        "photo": "src/images/people/mentors/zawa.jpg"
+    },
+    {
+        "id": "002",
+        "name": "Zaki Wasik",
+        "linkedin": "https://www.linkedin.com/in/zakiwasik/",
+        "photo": "src/images/people/mentors/zawa.jpg"
+    },
+    {
+        "id": "003",
+        "name": "Rohit Sharma",
+        "linkedin": "https://www.linkedin.com/in/r0hit/",
+        "photo": "src/images/people/mentors/rohit.jpg"
+    },
+    {
+        "id": "004",
+        "name": "Benjamin Dalsgaard Hughes",
+        "linkedin": "https://www.linkedin.com/in/benjamindalshughes/",
+        "photo": "src/images/people/mentors/benjamin.jpg"
+    },
+    {
+        "id": "005",
+        "name": "Jacob Andresen",
+        "linkedin": "https://www.linkedin.com/in/jacobandresen/",
+        "photo": "src/images/people/mentors/jacob.jpg"
+    },
+    {
+        "id": "006",
+        "name": "Eskil Petersson",
+        "linkedin": "https://www.linkedin.com/in/eskil-petersson-555b9344/",
+        "photo": "src/images/people/mentors/eskil.jpg"
+    },
+    {
+        "id": "007",
+        "name": "Neal Stewart",
+        "linkedin": "https://www.linkedin.com/in/neal-stewart-72b3b51b/",
+        "photo": "src/images/people/mentors/neal.jpg"
+    },
+    {
+        "id": "008",
+        "name": "Nynne Just Christofferson",
+        "linkedin": "https://www.linkedin.com/in/nynne-just-christoffersen-0361a316/",
+        "photo": "src/images/people/mentors/nynne.jpg"
+    },
+    {
+        "id": "009",
+        "name": "Keno Dreßel",
+        "linkedin": "https://www.linkedin.com/in/kenodressel/",
+        "photo": "src/images/people/mentors/zawa.jpg"
+    },
+    {
+        "id": "010",
+        "name": "Veselìn Ivanov",
+        "linkedin": "https://www.linkedin.com/in/veselin-ivanov-a8330720/",
+        "photo": "src/images/people/mentors/veselin.jpg"
+    },
+    {
+        "id": "011",
+        "name": "Svetlana Galkina",
+        "linkedin": "https://www.linkedin.com/in/svetlana-galkina-8076a959/",
+        "photo": "src/images/people/mentors/svetlana.jpg"
+    },
+    {
+        "id": "012",
+        "name": "Marta Matos",
+        "linkedin": "https://www.linkedin.com/in/marta-matos-829a7050/",
+        "photo": "src/images/people/mentors/marta.jpg"
+    }
+]
