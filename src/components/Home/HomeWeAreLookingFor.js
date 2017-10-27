@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeWeAreLookingFor = () => {
 	return (
-		<div className="home-we-are-looking-for container">
+		<div className="home-we-are-looking-for container py-5">
 			<h2 className="text-center">We are currently looking for</h2>
 
 			<div className="row container text-center">

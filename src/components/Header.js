@@ -1,38 +1,41 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
 
 const Header = () => {
-	return (
-		<header>
-			<span className="icn-logo">
-				<a href="#">
-					<img
-						src="src/images/logo/hyf-logo.svg"
-						alt="organization logo"
-					/>
-				</a>
-			</span>
-			<ul className="main-nav">
-				<li>
-					<a href="#">ABOUT US</a>
-				</li>
-				<li>
-					<a href="#">APPLY NOW</a>
-				</li>
-				<li>
-					<a href="#">SUPPORT US</a>
-				</li>
-				<li>
-					<a href="#">CONTACT</a>
-				</li>
-				<li>
-					<a href="#">
-					<button className="btn btn-outline-danger">DONATE</button>
-					</a>
-				</li>
-			</ul>
-		</header>
-	);
+  return (
+    
+      <nav className="navbar fixed-top bg-light flex-column flex-md-row">
+        <a className="navbar-brand" href="#">
+          <img
+            src="src/images/logo/hyf-logo.svg"
+            width="225"
+            height="60"
+            alt="organization logo"
+          />
+        </a>
+          
+            <a className="nav-item nav-link" href="#">
+              ABOUT US
+            </a>
+          
+            <a className="nav-item nav-link" href="#">
+              APPLY NOW
+            </a>
+          
+            <a className="nav-item nav-link" href="#">
+              SUPPORT US
+            </a>
+          
+            <a className="nav-item nav-link" href="#">
+              CONTACT
+            </a>
+          
+        
+        <a className="nav-item nav-link" href="#" className="btn btn-outline-danger">
+          DONATE
+        </a>
+      </nav>
+    
+  );
 };
 
 export default Header;

@@ -34,24 +34,28 @@ class HomeGetInTouch extends React.Component {
 
 	render() {
 		return (
-			<div className="home-contact-form">
-				<h2>Get in touch</h2>
+			<div className="home-contact-form text-center py-5">
+				<h2 className="text-center">Get in touch</h2>
 				<form>
-					<input
+					<div className="form-group">
+						<input className="form-control form-control-lg"
+							onChange={this.handleChange}
+							type="text"
+							name="name"
+							placeholder="name"
+							required
+						/>
+					</div>
+					<div className="form-group">
+					<input className="form-control form-control-lg"
 						onChange={this.handleChange}
-						type="text"
-						name="name"
-						placeholder="name"
-						required
-					/>
-					<input
-						onChange={this.handleChange}
-						type="text"
+						type="email"
 						name="email"
 						placeholder="email"
 						required
 					/>
-					<div className="contact-form-location">
+					</div>
+					<div className="contact-form-location form-check-inline">
 						<label>
 							Copenhagen
 							<input
@@ -73,12 +77,16 @@ class HomeGetInTouch extends React.Component {
 							/>
 						</label>
 					</div>
-					<textarea onChange={this.handleChange} name="message" />
-					<input
+					<div className="form-group">
+					<textarea className="form-control" onChange={this.handleChange} name="message" />
+					</div>
+					<div className="form-group">
+					<input className="form-control"
 						onSubmit={this.handleSubmit}
 						type="submit"
-						value="submit"
+						value="Send"
 					/>
+					</div>
 				</form>
 			</div>
 		);

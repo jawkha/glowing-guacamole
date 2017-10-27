@@ -12,7 +12,7 @@ import HomeGetInTouch from './HomeGetInTouch';
 
 const Home = () => {
 	return (
-		<div className="home">
+		<div className="home container-fluid">
 			<HomeBannerImage />
 			<HomeWhatDoWeDo />
 			<HomeWeAreLookingFor />

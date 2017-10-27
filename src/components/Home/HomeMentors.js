@@ -6,10 +6,10 @@ import mentors from './../../data/mentors.json';
 // The mentors file can be maintained as a JSON file and can be imported here by using the map method
 const HomeMentors = () => {
 	return (
-		<div className="home-mentors container">
+		<div className="home-mentors container-fluid py-5">
 			<h2 className="text-center">Mentors</h2>
 
-			<div className="row core-team-row container text-center">
+			<div className="row core-team-row text-center">
 		
 			{mentors.map(mentor => (
 				<div key={mentor.id} className="col-md-2 col-sm-4 col-xs-7 container">

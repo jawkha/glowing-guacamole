@@ -2,33 +2,70 @@
               WEB FONTS
 ==================================== */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+nav a {
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+nav a:active,
+nav a:hover {
+	color: #fc5c5d;
+}
+
+.btn {
+	border-radius: 24px;
+    border: solid 2px #fc5c5d;
+    color: #fc5c5d;
+	background-color: transparent;
+	font-weight: 900;
+	padding: 10px 15px;
+}
+
+.apply-now-button {
+	border: solid 2px #fc5c5d;
+	background-color: #fc5c5d;
+}
+
+#how-help-button {
+	color: black;
+	background-color: white;
+}
+
+.read-more-button {
+	background: white;
+	color: black;
+}
+
+.read-more-button:active,
+.read-more-button:hover {
+	background: white;
+	color: #fc5c5d;
+}
+
+.home-what-do-we-do {
+	color: #fff;
+	background-color: #fc5c5d;
+	font-size: 18px;
+	line-height: 2;
+}
+
+.home-contact-form form {
+	width: 60%;
+	margin: 5px auto;
+}
 
 /* ================================= 
   ELEMENT STYLES
 ==================================== */
-/* 
-body {
-	color: #576366;
-	margin: 0;
-	font-family: 'Roboto', sans-serif;
-}
-h1,
-h2,
-ul {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	padding: 0;
-}
 
-ul {
-	list-style-type: none;
-}
 
-a {
-	text-decoration: none;
-	color: #14273c;
-} */
 
 /* ================================= 
   LAYOUT & PAGE STYLES
@@ -39,12 +76,13 @@ header {
 } */
 
 /* IMAGES -------- */
-/* 
+ 
 .home-banner-image {
 	background-image: url('./images/home_banner_image.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-} */
+	color: #ffffff;
+}
 
 /* MAIN NAV -------- */
 /* 

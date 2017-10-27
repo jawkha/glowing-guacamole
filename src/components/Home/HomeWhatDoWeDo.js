@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeWhatDoWeDo = () => {
 	return (
-		<div className="home-what-do-we-do">
+		<div className="home-what-do-we-do container-fluid text-center py-5">
 			<h2>WHAT DO WE DO?</h2>
 			<p>We train refugees to become software-developers</p>
 			<p>
@@ -18,7 +18,7 @@ const HomeWhatDoWeDo = () => {
 				the software development world, we are here to give them a
 				helping hand.
 			</p>
-			<button>Read more</button>
+			<a className="read-more-button btn" href="#">Read more</a>
 		</div>
 	);
 };
