@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutWhatIsHYF = () => {
 	return (
-		<div className="what-is-hyf container text-center">
+		<div className="what-is-hyf container text-center py-5 col-md-8">
 			<h2>What is HackYourFuture?</h2>
 			<p>
 				HackYourFuture is a code school (foundation) teaching computer

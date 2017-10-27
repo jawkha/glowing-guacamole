@@ -3,7 +3,7 @@ import React from 'react';
 // The media coverage file can be maintained as a JSON file and can be imported here by using the map method
 const HomeMediaCoverage = () => {
 	return (
-		<div className="home-media-coverage container text-center py-5">
+		<div className="home-media-coverage container text-center py-5 col-md-9">
 			<h2 className="text-center">In the news</h2>
 
 			<div className="row media-coverage-row">

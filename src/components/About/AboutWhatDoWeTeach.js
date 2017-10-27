@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutWhatDoWeTeach = () => {
 	return (
-		<div className="what-do-we-teach container text-center">
+		<div className="what-do-we-teach container text-center py-5 col-md-8">
 			<h2>What do we teach?</h2>
 			<p>
 				The core language we teach is JavaScript, and we teach our

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutHowCanYouHelp = () => {
 	return (
-		<div className="how-can-you-help container text-center">
+		<div className="how-can-you-help container text-center py-5 col-md-8">
 			<h2>How can you help?</h2>
 			<p>
 				<strong>Volunteer</strong> We’re always looking for experienced

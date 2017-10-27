@@ -10,7 +10,7 @@ import AboutHowCanYouHelp from './AboutHowCanYouHelp';
 
 const About = () => {
 	return (
-		<div className="about container">
+		<div className="about container-fluid py-5 my-5">
 			<AboutWhatIsHYF />
 			<AboutWhyHYF />
 			<AboutWhatDoWeTeach />

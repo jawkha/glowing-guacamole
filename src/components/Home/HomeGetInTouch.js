@@ -34,7 +34,7 @@ class HomeGetInTouch extends React.Component {
 
 	render() {
 		return (
-			<div className="home-contact-form text-center py-5">
+			<div className="home-contact-form container text-center py-5 col-md-8">
 				<h2 className="text-center">Get in touch</h2>
 				<form>
 					<div className="form-group">

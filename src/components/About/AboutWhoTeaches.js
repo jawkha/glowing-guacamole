@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutWhoTeaches = () => {
 	return (
-		<div className="who-teaches container text-center">
+		<div className="who-teaches container text-center py-5 col-md-8">
 			<h2>Who teaches?</h2>
 			<p>
 				All of our teachers are skilled developers with multiple years

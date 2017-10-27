@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutForWho = () => {
 	return (
-		<div className="for-who container text-center">
+		<div className="for-who container text-center py-5 col-md-8">
 			<h2>For who?</h2>
 			<p>
 				We teach to talented refugees who want to start their career in

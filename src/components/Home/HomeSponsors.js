@@ -3,7 +3,7 @@ import React from 'react';
 // The sponsors file can be maintained as a JSON file and can be imported here by using the map method
 const HomeSponsors = () => {
 	return (
-		<div className="home-sponsors container-fluid text-center py-5">
+		<div className="home-sponsors container text-center py-5 col-md-9">
 			<h2>Sponsors</h2>
 
 			<div className="row sponsors-row text-center">

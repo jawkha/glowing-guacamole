@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutWhyHYF = () => {
 	return (
-		<div className="why-hyf container text-center">
+		<div className="why-hyf container text-center py-5 col-md-8">
 			<h2>Why HackYourFuture?</h2>
 			<p>
 				Within the current group of refugees there is a lot of talent.
