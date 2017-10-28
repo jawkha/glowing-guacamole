@@ -7,6 +7,7 @@ import Home from './Home/Home';
 import About from './About/About';
 import ApplyNow from './Apply/Apply';
 import Support from './Support';
+import Contact from './Contact';
 import Footer from './Footer';
 import NotFound from './NotFound';
 
@@ -21,6 +22,7 @@ const App = () => {
 					<Route path="/about" component={About} />
 					<Route path="/apply" component={ApplyNow} />
 					<Route path="/support" component={Support} />
+					<Route path="/contact" component={Contact} />
 					<Route component={NotFound} />
 				</Switch>
 				<Footer />
