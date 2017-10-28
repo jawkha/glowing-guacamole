@@ -1,38 +1,39 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
     
       <nav className="navbar fixed-top bg-light flex-column flex-md-row">
-        <a className="navbar-brand" href="#">
+        <NavLink className="navbar-brand" exact to="/">
           <img
             src="src/images/logo/hyf-logo.svg"
             width="225"
             height="60"
             alt="organization logo"
           />
-        </a>
+        </NavLink>
           
-            <a className="nav-item nav-link" href="#">
+            <NavLink className="nav-item nav-link" to="/about">
               ABOUT US
-            </a>
+            </NavLink>
           
-            <a className="nav-item nav-link" href="#">
+            <NavLink className="nav-item nav-link" to="/apply">
               APPLY NOW
-            </a>
+            </NavLink>
           
-            <a className="nav-item nav-link" href="#">
+            <NavLink className="nav-item nav-link" to="/support">
               SUPPORT US
-            </a>
+            </NavLink>
           
-            <a className="nav-item nav-link" href="#">
+            <NavLink className="nav-item nav-link" to="/contact">
               CONTACT
-            </a>
+            </NavLink>
           
         
-        <a className="nav-item nav-link" href="#" className="btn btn-outline-danger">
+        <NavLink className="nav-item nav-link" to="/donate" className="btn btn-outline-danger">
           DONATE
-        </a>
+        </NavLink>
       </nav>
     
   );
