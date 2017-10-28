@@ -8,6 +8,7 @@ import About from './About/About';
 import ApplyNow from './Apply/Apply';
 import Support from './Support';
 import Contact from './Contact';
+import DonateModal from './DonateModal';
 import Footer from './Footer';
 import NotFound from './NotFound';
 
@@ -23,6 +24,7 @@ const App = () => {
 					<Route path="/apply" component={ApplyNow} />
 					<Route path="/support" component={Support} />
 					<Route path="/contact" component={Contact} />
+					<Route path="/donate" component={DonateModal} />
 					<Route component={NotFound} />
 				</Switch>
 				<Footer />
