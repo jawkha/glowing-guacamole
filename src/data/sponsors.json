@@ -1,0 +1,20 @@
+[
+    {
+        "id": "001",
+        "name": "Tuborgfondet",
+        "website": "http://www.tuborgfondet.dk/",
+        "logo": "src/images/logo/sponsors/tuborgfondet.png"
+    },
+    {
+        "id": "002",
+        "name": "new creations ApS",
+        "website": "http://ncreations.com/",
+        "logo": "src/images/logo/sponsors/newcreations.png"
+    },
+    {
+        "id": "003",
+        "name": "Magenta ApS",
+        "website": "http://magenta.dk/",
+        "logo": "src/images/logo/sponsors/magenta.png"
+    }
+]

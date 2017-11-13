@@ -1,0 +1,16 @@
+[
+    {
+        "id": "001",
+        "title": "Prisvindende projekt: Flygtninge skal være webudviklere",
+        "publication_date": "28-August-2017",
+        "link": "https://karriere.jobfinder.dk/da/artikel/prisvindende-projekt-flygtninge-skal-vaere-webudviklere-9627/",
+        "logo": "src/images/logo/media/jobfinder.png"
+    },
+    {
+        "id": "002",
+        "title": "The refugee crisis — can we hack it?",
+        "publication_date": "26-October-2017",
+        "link": "https://medium.com/@cphftw/the-refugee-crisis-can-we-hack-it-9bbfc1e1472e",
+        "logo": "src/images/logo/media/medium.png"
+    }
+]

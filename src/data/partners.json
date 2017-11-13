@@ -1,0 +1,86 @@
+[
+    {
+        "id": "001",
+        "name": "Røde Kors Asyl",
+        "website": "https://www.rodekors.dk/det-goer-vi/roede-kors-asyl",
+        "logo": "src/images/logo/partners/RødeKorsAsyl.jpg"
+    },
+    {
+        "id": "002",
+        "name": "Foreningen Nydansker",
+        "website": "https://www.foreningen-nydansker.dk/",
+        "logo": "src/images/logo/partners/ForeningenNydansker.png"
+    },
+    {
+        "id": "003",
+        "name": "Trampolinhuset",
+        "website": "https://www.trampolinehouse.dk/",
+        "logo": "src/images/logo/partners/trampoline-house.png"
+    },
+    {
+        "id": "004",
+        "name": "Refugee Entrepreneurs Denmark",
+        "website": "http://refugeeentrepreneursdenmark.dk/",
+        "logo": "src/images/logo/partners/red_logo.png"
+    },
+    {
+        "id": "005",
+        "name": "YES! CPH",
+        "website": "http://yescph.co/",
+        "logo": "src/images/logo/partners/yesCPH.svg"
+    },
+    {
+        "id": "006",
+        "name": "Refugee Students",
+        "website": "http://studentrefugees.dk/",
+        "logo": "src/images/logo/partners/StudentRefugees.png"
+    },
+    {
+        "id": "007",
+        "name": "One Moment Foundation",
+        "website": "http://www.onemomentfoundation.org/",
+        "logo": "src/images/logo/partners/OneMoment.png"
+    },
+    {
+        "id": "008",
+        "name": "Peergrade",
+        "website": "https://www.peergrade.io/",
+        "logo": ""
+    },
+    {
+        "id": "009",
+        "name": "Crossing Borders",
+        "website": "",
+        "logo": ""
+    },
+    {
+        "id": "010",
+        "name": "KPH Projects",
+        "website": "",
+        "logo": ""
+    },
+    {
+        "id": "011",
+        "name": "Coding Pirates",
+        "website": "",
+        "logo": ""
+    },
+    {
+        "id": "012",
+        "name": "DFUNK",
+        "website": "",
+        "logo": ""
+    },
+    {
+        "id": "013",
+        "name": "Tella Consultants",
+        "website": "",
+        "logo": ""
+    },
+    {
+        "id": "014",
+        "name": "Foo Café",
+        "website": "",
+        "logo": ""
+    }
+]

@@ -19,7 +19,7 @@
     },
     {
         "id": "004",
-        "name": "Benjamin Dalsgaard Hughes",
+        "name": "Benjamin D. Hughes",
         "linkedin": "https://www.linkedin.com/in/benjamindalshughes/",
         "photo": "src/images/people/mentors/benjamin.jpg"
     },
@@ -43,7 +43,7 @@
     },
     {
         "id": "008",
-        "name": "Nynne Just Christofferson",
+        "name": "Nynne J. Christofferson",
         "linkedin": "https://www.linkedin.com/in/nynne-just-christoffersen-0361a316/",
         "photo": "src/images/people/mentors/nynne.jpg"
     },
@@ -51,7 +51,7 @@
         "id": "009",
         "name": "Keno Dreßel",
         "linkedin": "https://www.linkedin.com/in/kenodressel/",
-        "photo": "src/images/people/mentors/zawa.jpg"
+        "photo": "src/images/people/mentors/keno.jpg"
     },
     {
         "id": "010",
@@ -70,5 +70,29 @@
         "name": "Marta Matos",
         "linkedin": "https://www.linkedin.com/in/marta-matos-829a7050/",
         "photo": "src/images/people/mentors/marta.jpg"
+    },
+    {
+        "id": "013",
+        "name": "Martin Clemmensen",
+        "linkedin": "https://www.linkedin.com/in/martinclemmensen/",
+        "photo": "src/images/people/mentors/martin.jpg"
+    },
+    {
+        "id": "014",
+        "name": "Alicia González",
+        "linkedin": "https://www.linkedin.com/in/alicia-gonz%C3%A1lez-34997436/",
+        "photo": "src/images/people/mentors/alicia.jpg"
+    },
+    {
+        "id": "015",
+        "name": "Pankaj K. Singh",
+        "linkedin": "https://www.linkedin.com/in/pankaj28843/",
+        "photo": "src/images/people/mentors/pankaj.jpg"
+    },
+    {
+        "id": "016",
+        "name": "Pachito M. Calabrese",
+        "linkedin": "https://www.linkedin.com/in/pmcalabrese/",
+        "photo": "src/images/people/mentors/marco.jpg"
     }
 ]
