@@ -29,15 +29,15 @@ class HomeBannerImage extends React.Component {
     return (
       <div className="home-banner-image container-fluid text-center img-fluid py-5">
         <div className="py-5">
-          <h1 className="text-md-left text-sm-center">REFUGEE CODE SCHOOL</h1>
-          <h1 className="text-md-left text-sm-center">
+          <h1 className="text-center">REFUGEE CODE SCHOOL</h1>
+          <h1 className="text-center">
             <span>IN </span><span
               ref={el => {
                 this.el = el;
               }}
             />
           </h1>
-          <div className="buttons-container py-5 text-md-left text-sm-center">
+          <div className="buttons-container py-5 text-center">
             <div className="py-3">
             <Link to='/apply' className="apply-now-button btn btn-lg btn-outline-danger">APPLY NOW</Link>
             </div>
