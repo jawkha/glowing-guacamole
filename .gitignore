@@ -65,3 +65,5 @@ style/images/
 # Test folder
 test/
 
+# Folder contains the original jquery code for form submission
+api

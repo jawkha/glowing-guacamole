@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import Typed from "typed.js";
 
 class HomeBannerImage extends React.Component {
@@ -28,20 +29,20 @@ class HomeBannerImage extends React.Component {
     return (
       <div className="home-banner-image container-fluid text-center img-fluid py-5">
         <div className="py-5">
-          <h1>REFUGEE CODE SCHOOL</h1>
-          <h1>
+          <h1 className="text-md-left text-sm-center">REFUGEE CODE SCHOOL</h1>
+          <h1 className="text-md-left text-sm-center">
             <span>IN </span><span
               ref={el => {
                 this.el = el;
               }}
             />
           </h1>
-          <div className="buttons-container py-5">
+          <div className="buttons-container py-5 text-md-left text-sm-center">
             <div className="py-3">
-            <a className="apply-now-button btn btn-lg btn-outline-danger">APPLY NOW</a>
+            <Link to='/apply' className="apply-now-button btn btn-lg btn-outline-danger">APPLY NOW</Link>
             </div>
             <div className="py-3">
-            <a id="how-help-button" className="btn btn-outline-danger">HOW CAN I HELP?</a>
+            <Link to='/support' id="how-help-button" className="btn btn-outline-danger">HOW CAN I HELP?</Link>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const AboutForWho = () => {
 	return (
@@ -13,7 +14,7 @@ const AboutForWho = () => {
 				We accept people living all over the Netherlands, and we pay for
 				transportation costs (train tickets).
 			</p>
-			<button className="btn btn-outline-danger">APPLY NOW</button>
+			<Link to='/apply' className="btn btn-outline-danger">APPLY NOW</Link>
 		</div>
 	);
 };

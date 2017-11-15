@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const HomeWhatDoWeDo = () => {
 	return (
@@ -19,7 +20,7 @@ const HomeWhatDoWeDo = () => {
 				the software development world, we are here to give them a
 				helping hand.
 			</p>
-			<a className="read-more-button btn" href="#">Read more</a>
+			<Link to='/about' className="read-more-button btn">Read more</Link>
 		</div>
 		</div>
 	);

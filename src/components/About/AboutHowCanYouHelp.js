@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const AboutHowCanYouHelp = () => {
 	return (
@@ -10,7 +11,7 @@ const AboutHowCanYouHelp = () => {
 				team of volunteers is a positive and focused group of people who
 				simply love to code and share their knowledge.
 			</p>
-			<button className="btn btn-outline-danger">START TEACHING</button>
+			<Link to='/contact' className="btn btn-outline-danger">START TEACHING</Link>
 			<p>
 				<strong>Donate</strong> In order to run our school we’re looking
 				for extra funds to better facilitate our students in their
@@ -18,7 +19,7 @@ const AboutHowCanYouHelp = () => {
 				our donate button below, or contact us if you have laptops to
 				donate. Your donation is much appreciated!
 			</p>
-			<button className="btn btn-outline-danger">DONATE</button>
+			<Link to='/donate' className="btn btn-outline-danger">DONATE</Link>
 		</div>
 	);
 };

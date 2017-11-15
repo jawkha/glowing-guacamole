@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const HomeWeAreLookingFor = () => {
 	return (
@@ -14,7 +15,7 @@ const HomeWeAreLookingFor = () => {
 						potential. Help us maximize their potential with your
 						donation.
 					</p>
-					<button className="btn btn-outline-danger">DONATE</button>
+					<Link to='/donate' className="btn btn-outline-danger">DONATE</Link>
 				</div>
 				<div className="col-md-4 col-sm-4 container">
 				<img className="img rounded-circle" height="150px" src="src/images/icons/teacher-jim.png" alt="mentor image"></img>
@@ -23,7 +24,7 @@ const HomeWeAreLookingFor = () => {
 						We’re looking for web-developers with experience with
 						Javascript and related frameworks
 					</p>
-					<button className="btn btn-outline-danger">GET IN TOUCH</button>
+					<Link to='/contact' className="btn btn-outline-danger">GET IN TOUCH</Link>
 				</div>
 				<div className="col-md-4 col-sm-4 container">
 				<img className="img rounded-circle" height="150px" src="src/images/icons/laptop-green.png" alt="laptop image"></img>
@@ -32,7 +33,7 @@ const HomeWeAreLookingFor = () => {
 						Does your organization have laptops up for donation? Our
 						student could really use them.
 					</p>
-					<button className="btn btn-outline-danger">GET IN TOUCH</button>
+					<Link to='/contact' className="btn btn-outline-danger">GET IN TOUCH</Link>
 				</div>
 			</div>
 		</div>
