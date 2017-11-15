@@ -31,7 +31,7 @@ const Header = () => {
             </NavLink>
           
         
-        <NavLink className="nav-item nav-link" to="/donate" className="btn btn-outline-danger">
+        <NavLink className="nav-item nav-link" to="/donate" className="btn btn-outline-danger d-none d-md-block">
           DONATE
         </NavLink>
       </nav>
