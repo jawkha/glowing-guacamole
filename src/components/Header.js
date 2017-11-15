@@ -4,7 +4,7 @@ import FaBars from "react-icons/lib/fa/bars";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-md fixed-top bg-light flex-md-row">
+    <nav className="navbar navbar-expand-lg fixed-top bg-light">
       <button
         className="navbar-toggler"
         type="button"
@@ -27,29 +27,28 @@ const Header = () => {
         />
       </NavLink>
       <div
-        className="collapse navbar-collapse text-center"
+        className="collapse navbar-collapse text-center justify-content-end"
         id="navbarTogglerDemo01"
       >
-        <NavLink className="nav-item nav-link" to="/about">
+        <NavLink className="nav-item nav-link pr-5" to="/about">
           ABOUT US
         </NavLink>
 
-        <NavLink className="nav-item nav-link" to="/apply">
+        <NavLink className="nav-item nav-link pr-5" to="/apply">
           APPLY NOW
         </NavLink>
 
-        <NavLink className="nav-item nav-link" to="/support">
+        <NavLink className="nav-item nav-link pr-5" to="/support">
           SUPPORT US
         </NavLink>
 
-        <NavLink className="nav-item nav-link" to="/contact">
+        <NavLink className="nav-item nav-link pr-5" to="/contact">
           CONTACT
         </NavLink>
       </div>
       <NavLink
-        className="nav-item nav-link"
+        className="nav-item nav-link btn btn-outline-danger d-none d-md-block"
         to="/donate"
-        className="btn btn-outline-danger d-none d-md-block"
       >
         DONATE
       </NavLink>
