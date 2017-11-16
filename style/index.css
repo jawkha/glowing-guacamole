@@ -3,11 +3,13 @@
 ==================================== */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
-nav a {
+.nav-link {
+	font-family: 'Cabin', sans-serif;
 	font-size: 1.2em;
 	font-weight: bolder;
 	color: #000000;
@@ -76,4 +78,11 @@ nav a:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #ffffff;
+}
+
+.apply-now-banner-image {
+	background-image: url('./images/apply_now_banner_image.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
 }
