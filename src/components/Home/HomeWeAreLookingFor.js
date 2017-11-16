@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import DonateModal from './../DonateModal';
 
 const HomeWeAreLookingFor = () => {
 	return (
@@ -15,7 +16,7 @@ const HomeWeAreLookingFor = () => {
 						potential. Help us maximize their potential with your
 						donation.
 					</p>
-					<Link to='/donate' className="btn btn-outline-danger">DONATE</Link>
+					<DonateModal className="nav-item nav-link" bootstrapProps={'btn btn-outline-danger'}/>
 				</div>
 				<div className="col-md-4 col-sm-4 container">
 				<img className="img rounded-circle" height="150px" src="src/images/icons/teacher-jim.png" alt="mentor image"></img>

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import DonateModal from './../DonateModal';
 
 const AboutHowCanYouHelp = () => {
 	return (
@@ -19,7 +20,7 @@ const AboutHowCanYouHelp = () => {
 				our donate button below, or contact us if you have laptops to
 				donate. Your donation is much appreciated!
 			</p>
-			<Link to='/donate' className="btn btn-outline-danger">DONATE</Link>
+			<DonateModal className="nav-item nav-link" bootstrapProps={'btn btn-outline-danger'}/>
 		</div>
 	);
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import FaBars from "react-icons/lib/fa/bars";
+import DonateModal from './DonateModal';
 
 const Header = () => {
   return (
@@ -45,13 +46,9 @@ const Header = () => {
         <NavLink className="nav-item nav-link pr-5" to="/contact">
           CONTACT
         </NavLink>
+        
       </div>
-      <NavLink
-        className="nav-item nav-link btn btn-outline-danger d-none d-md-block"
-        to="/donate"
-      >
-        DONATE
-      </NavLink>
+      <DonateModal className="nav-item nav-link" bootstrapProps={'btn btn-outline-danger d-none d-md-block'}/>
     </nav>
   );
 };
