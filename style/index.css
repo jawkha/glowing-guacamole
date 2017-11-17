@@ -3,17 +3,23 @@
 ==================================== */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 .nav-link {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Fjalla One', sans-serif;
 	font-size: 1.2em;
-	font-weight: bolder;
+	font-weight: bold;
 	color: #000000;
 	text-transform: uppercase;
+}
+
+.typing-text {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 nav a:active,
@@ -22,17 +28,18 @@ nav a:hover {
 }
 
 .btn {
+	font-family: 'Fjalla One', sans-serif;
 	border-radius: 24px;
-    border: solid 2px #fc5c5d;
-    color: #fc5c5d;
+	border: solid 2px #fc5c5d;
+	font-weight: bold;
 	background-color: transparent;
-	font-weight: 900;
-	padding: 10px 15px;
+	padding: 10px 30px;
 }
 
 .apply-now-button {
 	border: solid 2px #fc5c5d;
 	background-color: #fc5c5d;
+	color: #ffffff;
 }
 
 #how-help-button {
@@ -85,4 +92,26 @@ nav a:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 800px;
+}
+
+.getintouch-message {
+	height: 300px;
+}
+
+.apply-dates-deadlines {
+	line-height: 2;
+	color: red;
+	font-size: 1em;
+}
+
+.apply-program-description {
+	line-height: 2;
+}
+
+#apply-now-form-source-hyf {
+	height: 100px;
+}
+
+#apply-now-form-education {
+	height: 300px;
 }

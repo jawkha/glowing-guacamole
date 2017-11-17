@@ -34,54 +34,54 @@ class HomeGetInTouch extends React.Component {
 
 	render() {
 		return (
-			<div className="home-contact-form container text-center py-5 col-md-8">
+			<div className="home-contact-form container py-5 col-md-8">
 				<h2 className="text-center">Get in touch</h2>
 				<form>
 					<div className="form-group">
-						<input className="form-control form-control-lg"
+						<input className="form-control form-control-md"
 							onChange={this.handleChange}
 							type="text"
 							name="name"
-							placeholder="name"
+							placeholder="Name"
 							required
 						/>
 					</div>
 					<div className="form-group">
-					<input className="form-control form-control-lg"
+					<input className="form-control form-control-md"
 						onChange={this.handleChange}
 						type="email"
 						name="email"
-						placeholder="email"
+						placeholder="Email"
 						required
 					/>
 					</div>
-					<div className="contact-form-location form-check-inline">
-						<label>
-							Copenhagen
-							<input
+					<div className="contact-form-location form-check form-check-inline">
+						<label className='form-check-label'>
+							<input className='form-check-input'
 								onChange={this.handleChange}
 								type="radio"
 								name="location"
 								value="Copenhagen"
 								id="location-choice-copenhagen"
 							/>
+							Copenhagen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						</label>
-						<label>
-							Malmö
-							<input
+						<label className='form-check-label'>
+							<input className='form-check-input'
 								onChange={this.handleChange}
 								type="radio"
 								name="location"
 								value="Malmö"
 								id="location-choice-malmo"
 							/>
+							Malmö
 						</label>
 					</div>
 					<div className="form-group">
-					<textarea className="form-control" onChange={this.handleChange} name="message" />
+					<textarea className="getintouch-message form-control form-control-lg" onChange={this.handleChange} name="message" placeholder="Message" />
 					</div>
-					<div className="form-group">
-					<input className="form-control"
+					<div className="form-group text-center">
+					<input className="form-control-sm btn btn-lg btn-outline-danger"
 						onSubmit={this.handleSubmit}
 						type="submit"
 						value="Send"
